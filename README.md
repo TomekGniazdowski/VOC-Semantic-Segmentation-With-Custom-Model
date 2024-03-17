@@ -17,7 +17,7 @@ For spacial augmentations I used: horiontal flip, rotation, translation and scal
 
 ## Training
 Training hyperparameters are presented below. Unfortunately I didn't have enough computational power to get the best hyperparameters set or train the model for hours.
-| | |
+| Hyperparameter | Value |
 | ------------- | ------------- |
 | Optimizer | Adam (lr=1e-4) |
 | Scheduler | One Cycle LR |
@@ -42,5 +42,5 @@ The model achieved an pixel-level accuracy at __87.95 %__ on half of the VOC Seg
 #### Five worst predicted images from the test dataset
 ![test worst](assets/predictions_worst.png)
 
-#### Confusion matrix
+#### Confusion matrix (test dataset)
 ![test confusion matrix](assets/confusion_matrix.png)
