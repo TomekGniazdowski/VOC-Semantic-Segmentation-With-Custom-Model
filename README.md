@@ -25,7 +25,7 @@ Training hyperparameters are presented below. Unfortunately I didn't have enough
 | Patience | 30 |
 | L1 regularization coeficient | 1e-6 |
 
-Moreover, beacuse of data inbalance I used weighted CrossEntropy loss. Model was trained for 1 hour 49 minutes on Nvidia GeForce RTX 3090 Ti.
+Moreover, beacuse of data inbalance I used weighted cross-entropy loss. Model was trained for 1 hour 49 minutes on Nvidia GeForce RTX 3090 Ti.
 
 ### Trining curves
 ![training curve](assets/training_curve.png)
